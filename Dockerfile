@@ -21,4 +21,4 @@ EXPOSE 25565
 
 ENTRYPOINT [ "java" ] 
 
-CMD ["-Xmx12288M", "-Xms12288Ms", "-jar", "server.jar", "nogui" ]
+CMD ["-Xmx12288M", "-Xms12288M", "-jar", "server.jar", "nogui" ]
