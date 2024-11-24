@@ -2,6 +2,8 @@ FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
+RUN mkdir -p /home/docker/minecraft
+
 WORKDIR /home/docker/minecraft
 
 RUN apt-get update && apt-get install -y \
