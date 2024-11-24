@@ -8,6 +8,7 @@ WORKDIR /home/docker/minecraft
 
 RUN apt-get update && apt-get install -y \
     openjdk-21-jdk \
+    nano \
     wget \
     && rm -rf /var/lib/apt/lists/*
 
