@@ -2,7 +2,7 @@ FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN mkdir -p /home/docker/minecraft
+RUN mkdir -p docker/minecraft
 
 WORKDIR docker/minecraft
 
