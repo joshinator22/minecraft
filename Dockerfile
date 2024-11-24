@@ -7,7 +7,7 @@ RUN mkdir -p /home/docker/minecraft
 WORKDIR /home/docker/minecraft
 
 RUN apt-get update && apt-get install -y \
-    openjdk-17-jdk \
+    openjdk-21-jdk \
     wget \
     && rm -rf /var/lib/apt/lists/*
 
